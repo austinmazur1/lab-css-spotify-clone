@@ -6,3 +6,32 @@ Green: #00B172
 White: #FFF
 
 */
+.navbar img {
+    max-width: 15%;
+    height: 15%;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    max-width: 100%;
+    border: 1px solid blue;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: space-between;
+    border: 2px solid orange;
+    list-style: none;
+    padding: 10px;
+    /* issues with resizing and nav items squish together */
+}
+
+.nav-list-items {
+    text-decoration: none;
+    color: #1A1A1A;
+}
